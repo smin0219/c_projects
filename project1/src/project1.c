@@ -1,4 +1,4 @@
-#include "hw1.h"
+#include "project1.h"
 // For your helper functions (you may add additional files also)
 // DO NOT define a main function here
 

@@ -8,7 +8,6 @@
 #include "info.h"
 
 
-
 /**
  * @brief Validates command line arguments passed to the program.
  * @details This function will validate all the arguments passed to the program
@@ -19,7 +18,7 @@
  * @param argv The argument strings passed to the program from the CLI.
  * @param in The OUTPUT_FILE of the program.
  * @param out The INPUT_FILE of the program.
- * @return Refer to homework document for the return value of this function.
+ * @return 
  */
 char validargs(int argc, char **argv, FILE **in, FILE **out);
 

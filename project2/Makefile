@@ -8,11 +8,9 @@ INCD := include
 ALL_SRCF := $(shell find $(SRCD) -type f -name *.c)
 ALL_OBJF := $(patsubst $(SRCD)/%,$(BLDD)/%,$(ALL_SRCF:.c=.o))
 FUNC_FILES := $(filter-out build/main.o, $(ALL_OBJF))
-TEST_SRC := $(shell find $(TSTD) -type f -name *.c)
 INC := -I $(INCD)
 
 EXEC := spell
-TEST_EXEC := $(EXEC)_test
 
 CFLAGS := -Wall -Werror -pedantic -Wextra
 DFLAGS := -g -DDEBUG

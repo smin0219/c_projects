@@ -1,7 +1,7 @@
 #include <criterion/criterion.h>
 #include <criterion/logging.h>
 #include <string.h>
-#include "hw1.h"
+#include "project1.h"
 
 #define HELP 0x80
 #define SUBS 0x40

@@ -1,8 +1,5 @@
 #include "sfish.h"
 #include "debug.h"
-/*
- * As in previous hws the main function must be in its own file!
- */
 
 
 int main(int argc, char const *argv[], char* envp[]){
@@ -11,10 +8,9 @@ int main(int argc, char const *argv[], char* envp[]){
 	signal(SIGUSR2, easy_handler);
 	signal(SIGALRM, alarm_handler);
 
-	//signal()
-	/* DO NOT MODIFY THIS. If you do you will get a ZERO. */
+
 	rl_catch_signals = 0;
-	/* This is disable readline's default signal handlers, since you are going to install your own.*/
+
 	int count = 0;
 	int bg = 0;
 	int redir = 0;
@@ -27,7 +23,7 @@ int main(int argc, char const *argv[], char* envp[]){
 	char prev_dir[MAX_SIZE];
 	char shell[MAX_SIZE];
 	char temp[MAX_SIZE];
-	//curr_dir = (char*)calloc(MAX_SIZE,sizeof(char*));
+
 	memset(command,0,sizeof(command));
 	memset(curr_dir,0,sizeof(curr_dir));
 	memset(prev_dir,0,sizeof(prev_dir));

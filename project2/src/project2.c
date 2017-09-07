@@ -1,4 +1,4 @@
-#include "hw2.h"
+#include "project2.h"
 /* Great filename. */
 void processDictionary(FILE* f){
 

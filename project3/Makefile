@@ -12,12 +12,10 @@ ALL_OBJF := $(patsubst $(SRCD)/%,$(BLDD)/%,$(ALL_SRCF:.c=.o))
 ALL_OBJF += $(SF_UTIL)
 FUNC_FILES := $(filter-out build/main.o, $(ALL_OBJF))
 ALL_OBJF_XCPT_SFUTIL := $(filter-out $(SF_UTIL), $(ALL_OBJF))
-TEST_SRC := $(shell find $(TSTD) -type f -name *.c)
 
 INC := -I $(INCD)
 
 EXEC := main
-TEST_EXEC := test_$(EXEC)
 
 CFLAGS := -Wall -Werror
 DFLAGS := -g -DDEBUG -DCOLOR

@@ -1,5 +1,5 @@
-#ifndef HW_H
-#define HW_H
+#ifndef PROJECT2_H
+#define PROJECT2_H
 
 #include <stdio.h>
 #include <stdlib.h>

@@ -13,22 +13,12 @@
 #include <stdbool.h>
 #include "const.h"
 
-/*
-    _  _____ _____ _   _     ____  _     _____    ____  _____    _    ____
-   / \|_   _|_   _| \ | |   |  _ \| |   |__  /   |  _ \| ____|  / \  |  _ \
-  / _ \ | |   | | |  \| |   | |_) | |     / /    | |_) |  _|   / _ \ | | | |
- / ___ \| |   | | | |\  |   |  __/| |___ / /_    |  _ <| |___ / ___ \| |_| |
-/_/   \_\_|   |_| |_| \_|   |_|   |_____/____|   |_| \_\_____/_/   \_\____/
-
-*/
 
 typedef struct{
-    /* BEGIN: DO NOT MODIFY THE FIELDS BETWEEN THESE COMMENTS */
     size_t capacity;
     size_t length;
     size_t item_size;
     void* base;
-    /* END: .. add locks, other fields BELOW THIS COMMENT if needed .. */
     pthread_mutex_t lock;
 }arraylist_t;
 

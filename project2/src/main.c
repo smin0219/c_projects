@@ -1,4 +1,4 @@
-#include "hw2.h"
+#include "project2.h"
 int main(int argc, char *argv[]){
     FILE* DEFAULT_INPUT = stdin;
     FILE* DEFAULT_OUTPUT = stdout;

@@ -1,4 +1,4 @@
-#include "hw1.h"
+#include "project1.h"
 
 int main(int argc, char **argv) {
 
