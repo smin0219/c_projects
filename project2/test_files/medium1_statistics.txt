@@ -1,0 +1,8 @@
+Total number of words in dictionary: 14
+Size of dictionary (in bytes): 1111
+Size of misspelled word list (in bytes): 1111
+Total number of misspelled words: 11
+Top 3 misspelled words:
+doctor (3 times): doct
+allocator (2 times): allocatar
+cat (1 times): ca

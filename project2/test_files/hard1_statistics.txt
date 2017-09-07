@@ -1,0 +1,8 @@
+Total number of words in dictionary: 111
+Size of dictionary (in bytes): 12448
+Size of misspelled word list (in bytes): 3024
+Total number of misspelled words: 23
+Top 3 misspelled words:
+amongst (3 times): aomgts
+discovered (2 times): discoverd
+several (1 times): sevaral

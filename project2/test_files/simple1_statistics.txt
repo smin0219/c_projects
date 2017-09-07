@@ -1,0 +1,8 @@
+Total number of words in dictionary: 3
+Size of dictionary (in bytes): 352
+Size of misspelled word list (in bytes): 504
+Total number of misspelled words: 7
+Top 3 misspelled words:
+tablet (4 times): tableat
+barbecue (3 times): brbque
+notebook (2 times): ntebook

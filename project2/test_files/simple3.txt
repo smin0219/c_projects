@@ -1,0 +1,6 @@
+notebook notebook
+barbecue
+tablet tablet barbecue
+barbecue    notebook
+notebook
+abcdefghijklmnopqrstuvwxyz
